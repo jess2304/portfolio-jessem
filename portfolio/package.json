@@ -10,7 +10,8 @@
   },
   "dependencies": {
     "three": "^0.160.1",
-    "vue": "^3.3.11"
+    "vue": "^3.3.11",
+    "vue-scrollto": "^2.20.0"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.5.2",

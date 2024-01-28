@@ -1,0 +1,10 @@
+[
+    { "id": "#coordonnees", "name": "Coordonnées" },
+    { "id": "#profil", "name": "Profil et Parcours Professionnels" },
+    { "id": "#formations", "name": "Formations" },
+    { "id": "#competences", "name": "Compétences" },
+    { "id": "#projets", "name": "Projets" },
+    { "id": "#langues", "name": "Langues" },
+    { "id": "#jci", "name": "Certifications JCI" },
+    { "id": "#loisirs", "name": "Loisirs" }
+]
