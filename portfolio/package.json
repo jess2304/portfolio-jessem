@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "aos": "^2.3.4",
     "three": "^0.160.1",
     "vue": "^3.3.11",
     "vue-scrollto": "^2.20.0"

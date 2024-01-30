@@ -6,39 +6,45 @@ export default {
   name: 'Navbar',
   data() {
     return {
-      NavBar
+      NavBar,
+      activeSection: null
     }
   },
   methods: {
     scrollToSection(id) {
-      this.$scrollTo(id, 500);
+      this.activeSection = !id
+      this.$scrollTo(id, 500)
     }
   }
 }
 </script>
 
-<template>
-    <nav>
-        <ul>
-            <li v-for="item in NavBar" :key="item.id">
-                <a :href="item.id" @click.prevent="scrollToSection(item.id)">{{ item.name }}</a>
-            </li>
-        </ul>
-    </nav>
-</template>
 
+<template>
+  <nav>
+    <ul>
+      <li v-for="item in NavBar" :key="item.id">
+        <a :href="item.id" 
+           :class="{ active: activeSection === item.id }" 
+           @click.prevent="scrollToSection(item.id)">
+          {{ item.name }}
+        </a>
+      </li>
+    </ul>
+  </nav>
+</template>
 
 
 <style scoped>
 nav {
   background: #ffffff; 
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0.135vw 0.27vw rgba(0, 0, 0, 0.1);
   position: fixed; 
   top: 0;
   left: 0;
   right: 0;
   z-index: 1000; 
-  height: 60px; 
+  height: 7vh; 
   display: flex;
   justify-content: center;
   align-items: center; 
@@ -48,7 +54,7 @@ nav {
 ul {
   list-style: none;
   display: flex;
-  gap: 20px; 
+  gap: 1.38vw; 
   margin: 0;
   padding: 0;
 }
@@ -56,22 +62,18 @@ ul {
 li a {
   text-decoration: none;
   color: #333; 
-  font-size: 16px;
-  padding: 10px 15px;
-  border-radius: 5px;
+  font-size: 1.2vw;
+  padding: 0.69vw 1.04vw;
+  border-radius: 0.345vw;
   transition: color 0.3s, background-color 0.3s;
 }
 
-li a:hover,
-li a:focus {
+li a:hover {
   color: #ffffff; 
   background-color: #007bff;
 }
-
 li a.active {
   background-color: #0056b3; 
   color: #ffffff;
 }
 </style>
-
-  

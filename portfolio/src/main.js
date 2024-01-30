@@ -2,6 +2,8 @@ import { createApp } from 'vue'
 import './style.css'
 import App from './App.vue'
 import VueScrollTo from 'vue-scrollto'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 const app = createApp(App)
 app.use(VueScrollTo, {
@@ -19,5 +21,10 @@ app.use(VueScrollTo, {
 })
 app.mount('#app')
 
+AOS.init({
+    duration: 2000,
+    delay: 500,
+    once: false,
+})
 
 

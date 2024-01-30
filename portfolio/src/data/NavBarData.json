@@ -1,5 +1,4 @@
 [
-    { "id": "#coordonnees", "name": "Coordonnées" },
     { "id": "#profil", "name": "Profil et Parcours Professionnels" },
     { "id": "#formations", "name": "Formations" },
     { "id": "#competences", "name": "Compétences" },
