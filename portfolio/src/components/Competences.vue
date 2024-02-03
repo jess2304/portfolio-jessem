@@ -10,17 +10,20 @@ export default {
 }
 </script>
 
+
 <template>
-    <section class="competences" id="competences">
-      <h1>Compétences</h1>
-      <div class="competences-container">
-        <div class="competence-item" v-for="(competence, index) in competences" :key="index">
-          <h3>{{ competence.categorie }}</h3>
-          <p v-for="comp in competence.competences" :key="comp">{{ comp }}</p>
-        </div>
+  <section class="competences" id="competences">
+    <h1>Compétences</h1>
+    <div class="competences-container">
+      <div class="competence-item" v-for="(competence, index) in competences" :key="index">
+        <img :src="competence.icone" alt="Icone" class="competence-icone">
+        <h3>{{ competence.categorie }}</h3>
+        <p v-for="comp in competence.competences" :key="comp">{{ comp }}</p>
       </div>
-    </section>
+    </div>
+  </section>
 </template>
+
   
 <style scoped>
 .competences {
@@ -34,16 +37,24 @@ export default {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 2vw;
-  width: 80%; 
+  width: 80%;
   margin-top: 2vw;
+  background: rgba(255, 255, 255, 0.8);
 }
 
 .competence-item {
   padding: 1.5vw;
-  background: #f0f0f0;
   border-radius: 1vw;
   box-shadow: 0 0.5vw 1vw rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
+  background: rgba(255, 255, 255, 0.9);
+}
+
+.competence-icone {
+  width: auto;
+  height: 5vw;
+  margin-bottom: 1vw;
+  object-fit: contain;
 }
 
 .competence-item:hover {
