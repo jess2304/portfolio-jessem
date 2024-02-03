@@ -12,6 +12,7 @@
 
 <template>
     <div class="profile-path-container" id="profil">
+      <h1>Profil Professionnel et Parcours Professionnel</h1>
       <ProProfile />
       <ProPath />
     </div>
