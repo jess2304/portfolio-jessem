@@ -3,7 +3,7 @@
     { "id": "#formations", "name": "Formations" },
     { "id": "#competences", "name": "Compétences" },
     { "id": "#projets", "name": "Projets" },
+    { "id": "#articles", "name": "Articles de Recherche"},
     { "id": "#langues", "name": "Langues" },
-    { "id": "#jci", "name": "Certifications JCI" },
-    { "id": "#loisirs", "name": "Loisirs" }
+    { "id": "#jci", "name": "Certifications JCI" }
 ]

@@ -5,7 +5,7 @@ import ProProfileView from './views/ProProfilePathView.vue'
 import Formations from './components/Formation.vue'
 import Competences from './components/Competences.vue'
 import Projets from './components/Projets.vue'
-
+import Articles from './components/ArticlesdeRecherche.vue'
 export default {
   name: 'App',
   components: {
@@ -15,6 +15,7 @@ export default {
     Formations,
     Competences,
     Projets,
+    Articles,
   }
 }
 </script>
@@ -28,5 +29,6 @@ export default {
     <Formations></Formations>
     <Competences></Competences>
     <Projets></Projets>
+    <Articles></Articles>
   </div>
 </template>
