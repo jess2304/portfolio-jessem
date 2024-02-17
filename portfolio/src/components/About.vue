@@ -5,6 +5,9 @@
         <h2>Data Scientist & Développeur</h2>
         <h3>Mail : <a href="mailto:jessemettaghouti@gmail.com">jessemettaghouti@gmail.com</a></h3>
         <h3>Numéro de téléphone : <a href="tel:+33671090148">+33 6 71 09 01 48</a></h3>
+        <div class="cv-download">
+          <a href="/cv/CV_Jessem_Ettaghouti.pdf" download="CV_Jessem_Ettaghouti.pdf" class="download-cv-btn">Curriculum Vitae (CV)</a>
+        </div>
         <div class="social-icons">
           <a href="https://www.linkedin.com/in/jessem-ettaghouti-38142320a/" target="_blank"><img src="../assets/linkedin_icon.png" alt="LinkedIn"></a>
           <a href="https://www.instagram.com/jessem_ett/" target="_blank"><img src="../assets/instagram_icon.png" alt="Instagram"></a>
@@ -72,5 +75,48 @@
     height: auto;
     border-radius: 0.69vw;
   }
+  @keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes fadeInOut {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+.cv-download {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.download-cv-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  color: rgb(5, 2, 29);
+  box-shadow: 0 0.28vw 0.56vw rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+  border-radius: 5px;
+  transition: transform 0.3s;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-weight: bold;
+  scale: 0.8;
+}
+
+.download-cv-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
 </style>
-  
