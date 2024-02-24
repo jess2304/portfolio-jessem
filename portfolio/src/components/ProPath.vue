@@ -49,17 +49,14 @@
   }
   
   .experience h3 {
-    font-size: 1.6vw;
     color: #333;
   }
   
   .dates, .company {
-    font-size: 1.2vw;
     color: #666;
   }
   
   .experience p {
-    font-size: 1vw;
     color: #333;
     margin-top: 0.8vw;
   }

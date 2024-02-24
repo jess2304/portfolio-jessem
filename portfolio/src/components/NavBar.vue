@@ -62,7 +62,6 @@ ul {
 li a {
   text-decoration: none;
   color: #333; 
-  font-size: 1.2vw;
   padding: 0.69vw 1.04vw;
   border-radius: 0.345vw;
   transition: color 0.3s, background-color 0.3s;

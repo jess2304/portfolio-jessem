@@ -19,7 +19,6 @@
   
   .profil-pro-container p {
     color: #333;
-    font-size: 1.2vw;
     margin-top: 1vw;
   }
 </style>

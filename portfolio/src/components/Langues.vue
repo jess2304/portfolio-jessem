@@ -6,7 +6,6 @@ export default {
           { nom: "Arabe", niveau: "Langue maternelle" },
           { nom: "Français", niveau: "Courant" },
           { nom: "Anglais", niveau: "Intermédiaire supérieur B2 (TOEIC réussi)" },
-          { nom: "Allemand", niveau: "Notions" }
         ]
       }
     }
