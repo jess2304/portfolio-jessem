@@ -1,0 +1,9 @@
+[
+  { "id": "#profil", "name": "Profil et Parcours Professionnels" },
+  { "id": "#formations", "name": "Formations" },
+  { "id": "#competences", "name": "Compétences" },
+  { "id": "#projets", "name": "Projets" },
+  { "id": "#articles", "name": "Articles de Recherche" },
+  { "id": "#jci", "name": "Certifications JCI" },
+  { "id": "#langues", "name": "Langues" }
+]
