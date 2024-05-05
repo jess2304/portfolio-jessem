@@ -18,6 +18,6 @@ repos:
     hooks:
       - id: prettier
         additional_dependencies: ['prettier@2.7.1']
-        args: ['--write']
+        args: ['--write','--no-semi']
         files: '\.(ts|vue|css|scss|json|md)$'
         exclude: 'node_modules'

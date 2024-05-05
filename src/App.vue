@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import NavBarComponent from "@/components/NavBarComponent.vue";
-import AccueilView from "@/views/AccueilView.vue";
+import NavBarComponent from "@/components/NavBarComponent.vue"
+import AccueilView from "@/views/AccueilView.vue"
 </script>
 <template>
   <div class="container-fluid d-flex flex-column vh-100 p-0">

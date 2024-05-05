@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import data from "@/data/NavBarData.json";
+import data from "@/data/NavBarData.json"
 </script>
 <template>
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
