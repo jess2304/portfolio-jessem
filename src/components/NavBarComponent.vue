@@ -4,7 +4,7 @@ import data from "@/data/NavBarData.json"
 <template>
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">It's Jessem Ettaghouti !</a>
+      <a class="navbar-brand" href="#about">It's Jessem Ettaghouti !</a>
       <button
         class="navbar-toggler"
         type="button"
