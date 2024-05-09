@@ -1,8 +1,9 @@
 <script setup lang="ts">
 import NavBarComponent from "@/components/NavBarComponent.vue"
-import Aboutview from "@/views/Aboutview.vue"
+import AboutView from "@/views/Aboutview.vue"
 import ProfessionalView from "@/views/Professionalview.vue"
-import Formationview from "@/views/Formationview.vue"
+import FormationView from "@/views/Formationview.vue"
+import CompetencesView from "@/views/Competencesview.vue"
 </script>
 <template>
   <div class="container-fluid d-flex flex-column vh-100 p-0">
@@ -10,9 +11,10 @@ import Formationview from "@/views/Formationview.vue"
       <NavBarComponent />
     </header>
     <main class="flex-grow-1 overflow-auto">
-      <Aboutview id="about" />
+      <AboutView id="about" />
       <ProfessionalView id="profil" />
-      <Formationview id="formations" />
+      <FormationView id="formations" />
+      <CompetencesView id="competences" />
     </main>
     <footer class="mt-auto bg-light">footer</footer>
   </div>
