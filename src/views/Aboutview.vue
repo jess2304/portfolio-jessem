@@ -1,6 +1,6 @@
 <script setup lang="ts"></script>
 <template>
-  <div class="container">
+  <div class="container pt-5">
     <div class="row align-items-start justify-content-center">
       <div class="col-md-6 order-2 order-md-1">
         <div class="card shadow p-0">
