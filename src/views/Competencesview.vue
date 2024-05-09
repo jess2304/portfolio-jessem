@@ -6,7 +6,7 @@ const competences = ref(competencesData)
 
 <template>
   <section class="d-flex flex-column align-items-center">
-    <h1>Compétences</h1>
+    <h1 class="text-center my-4"><strong>Compétences</strong></h1>
     <div class="competences-container">
       <div
         class="competence-item"

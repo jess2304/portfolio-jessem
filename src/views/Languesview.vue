@@ -7,7 +7,7 @@ const langues = [
 </script>
 <template>
   <section id="langues" class="container my-5">
-    <h1 class="mb-4 text-center">Langues</h1>
+    <h1 class="mb-4 text-center"><strong>Langues</strong></h1>
     <ul class="list-group">
       <li
         v-for="(langue, index) in langues"

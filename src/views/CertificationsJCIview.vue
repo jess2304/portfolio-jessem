@@ -3,7 +3,7 @@ import certifications from "@/data/CertificationsJCIData.json"
 </script>
 <template>
   <section id="jci" class="container mt-5">
-    <h1 class="text-center mb-4">Certifications JCI</h1>
+    <h1 class="text-center mb-4"><strong>Certifications JCI</strong></h1>
     <ul class="list-group">
       <li
         class="list-group-item shadow-sm p-3 mb-2 bg-white rounded"

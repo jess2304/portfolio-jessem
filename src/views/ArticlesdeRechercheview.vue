@@ -5,7 +5,9 @@ const articles = ref(articlesData)
 </script>
 <template>
   <section class="articles text-center mt-5 mb-3" id="articles">
-    <h1 class="mb-4">Articles de Recherche publiés (en Data Science)</h1>
+    <h1 class="text-center my-4">
+      <strong>Articles de Recherche publiés (en Data Science)</strong>
+    </h1>
     <div class="container">
       <div class="row g-4">
         <div class="col-md-6" v-for="(article, index) in articles" :key="index">

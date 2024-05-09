@@ -13,7 +13,7 @@ const toggleFormation = (index: number) => {
 </script>
 <template>
   <div class="container mt-5">
-    <h1 class="mb-4">Formations</h1>
+    <h1 class="text-center my-4"><strong>Formations</strong></h1>
     <div
       v-for="(formation, index) in formations"
       :key="index"

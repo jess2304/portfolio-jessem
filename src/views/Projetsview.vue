@@ -7,7 +7,7 @@ const projets = ref(projetsData)
 
 <template>
   <section>
-    <h1 class="text-center my-4">Projets Personnels</h1>
+    <h1 class="text-center my-4"><strong>Projets Personnels</strong></h1>
     <div
       id="carouselExampleControls"
       class="carousel carousel-dark slide"

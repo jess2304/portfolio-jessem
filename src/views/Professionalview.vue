@@ -4,7 +4,9 @@ import ProPath from "@/components/ProPath.vue"
 </script>
 <template>
   <div class="container pt-5">
-    <h1><strong>Profil Professionel et Expérience Professionnelle</strong></h1>
+    <h1 class="text-center my-4">
+      <strong>Profil Professionel et Expérience Professionnelle</strong>
+    </h1>
     <div class="p-5">
       <ProProfile />
     </div>
