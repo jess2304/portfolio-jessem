@@ -23,7 +23,7 @@
             </p>
             <div class="text-center my-3">
               <a
-                href="/cv/CV_Jessem_Ettaghouti.pdf"
+                href="/portfolio-jessem/cv/CV_Jessem_Ettaghouti.pdf"
                 download="CV_Jessem_Ettaghouti.pdf"
                 class="btn btn-sm btn-outline-primary"
                 ><strong>Curriculum Vitae (CV)</strong></a
@@ -64,7 +64,7 @@
       </div>
       <div class="col-md-6 order-1 order-md-2">
         <img
-          src="/assets/profile_photo.jpg"
+          src="/portfolio-jessem/assets/profile_photo.jpg"
           alt="Ettaghouti"
           class="img-fluid rounded"
         />

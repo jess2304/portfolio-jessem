@@ -9,7 +9,7 @@
       "Java",
       "HTML/CSS/TypeScript"
     ],
-    "icone": "/assets/languages.png"
+    "icone": "/portfolio-jessem/assets/languages.png"
   },
   {
     "categorie": "Machine Learning, Deep Learning, Analyse de données",
@@ -18,16 +18,16 @@
       "Analyse de données avec pandas, numpy et Matplotlib",
       "Reconnaissance d'images et classification avec Tensorflow, Keras"
     ],
-    "icone": "/assets/ml.png"
+    "icone": "/portfolio-jessem/assets/ml.png"
   },
   {
     "categorie": "Technologies de Bases de Données et DevOps",
     "competences": ["Oracle SQL", "Big Data AWS", "Terraform et Gitlab CI/CD"],
-    "icone": "/assets/bdd.png"
+    "icone": "/portfolio-jessem/assets/bdd.png"
   },
   {
     "categorie": "Framewoks de développement Web",
     "competences": ["Back-End avec FastAPI", "Front-End avec VueJs"],
-    "icone": "/assets/web.png"
+    "icone": "/portfolio-jessem/assets/web.png"
   }
 ]
