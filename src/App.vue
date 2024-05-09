@@ -2,6 +2,7 @@
 import NavBarComponent from "@/components/NavBarComponent.vue"
 import Aboutview from "@/views/Aboutview.vue"
 import ProfessionalView from "@/views/Professionalview.vue"
+import Formationview from "@/views/Formationview.vue"
 </script>
 <template>
   <div class="container-fluid d-flex flex-column vh-100 p-0">
@@ -11,6 +12,7 @@ import ProfessionalView from "@/views/Professionalview.vue"
     <main class="flex-grow-1 overflow-auto">
       <Aboutview id="about" />
       <ProfessionalView id="profil" />
+      <Formationview id="formations" />
     </main>
     <footer class="mt-auto bg-light">footer</footer>
   </div>
