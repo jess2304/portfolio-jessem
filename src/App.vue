@@ -5,6 +5,7 @@ import ProfessionalView from "@/views/Professionalview.vue"
 import FormationView from "@/views/Formationview.vue"
 import CompetencesView from "@/views/Competencesview.vue"
 import ProjetsView from "@/views/Projetsview.vue"
+import ArticlesdeRechercheView from "@/views/ArticlesdeRechercheview.vue"
 </script>
 <template>
   <div class="container-fluid d-flex flex-column vh-100 p-0">
@@ -17,6 +18,7 @@ import ProjetsView from "@/views/Projetsview.vue"
       <FormationView id="formations" />
       <CompetencesView id="competences" />
       <ProjetsView id="projets" />
+      <ArticlesdeRechercheView id="articles" />
     </main>
     <footer class="mt-auto bg-light">footer</footer>
   </div>
