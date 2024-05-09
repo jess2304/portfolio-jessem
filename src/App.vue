@@ -6,6 +6,8 @@ import FormationView from "@/views/Formationview.vue"
 import CompetencesView from "@/views/Competencesview.vue"
 import ProjetsView from "@/views/Projetsview.vue"
 import ArticlesdeRechercheView from "@/views/ArticlesdeRechercheview.vue"
+import CertificationsJCIView from "@/views/CertificationsJCIview.vue"
+import LanguesView from "@/views/Languesview.vue"
 </script>
 <template>
   <div class="container-fluid d-flex flex-column vh-100 p-0">
@@ -19,8 +21,12 @@ import ArticlesdeRechercheView from "@/views/ArticlesdeRechercheview.vue"
       <CompetencesView id="competences" />
       <ProjetsView id="projets" />
       <ArticlesdeRechercheView id="articles" />
+      <CertificationsJCIView id="jci" />
+      <LanguesView id="langues" />
     </main>
-    <footer class="mt-auto bg-light">footer</footer>
+    <footer class="mt-auto bg-light">
+      © 2024 Jessem Ettaghouti. Tous droits réservés.
+    </footer>
   </div>
 </template>
 <style scoped></style>
