@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import competencesData from "@/data/CompetencesData.json"
-const competences = competencesData
+import { ref } from "vue"
+const competences = ref(competencesData)
 </script>
 
 <template>

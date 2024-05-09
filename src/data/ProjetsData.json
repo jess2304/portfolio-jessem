@@ -1,0 +1,27 @@
+[
+  {
+    "titre": "Génération de maillages en 2D (120 heures)",
+    "description": "Développer un générateur de maillages 2D en Matlab et Python, en utilisant des connaissances en éléments finis",
+    "lien": "https://github.com/jess2304/KMG2D-Python"
+  },
+  {
+    "titre": "Challenge Deep Learning de QuickDraw Basique (120 heures)",
+    "description": "Le but est de créer un modèle Deep Learning avec Keras permettant de classifier des images en 5 classes.",
+    "lien": "https://github.com/jess2304/Challenge-QuickDraw-Basique"
+  },
+  {
+    "titre": "Réalisation du jeu de cartes Pablo (120 heures)",
+    "description": "Développer un modèle IA avec du Reinforcement Learning permettant de jouer contre un humain au jeu Pablo. Le site web qui présente le jeu est encours de développement.",
+    "lien": "https://github.com/jess2304/pablo-game-ai"
+  },
+  {
+    "titre": "Portfolio personnel (60 heures)",
+    "description": "Développer un site web personnel présentant un portfolio des compétences permettant de mieux connaître Jessem Ettaghouti. Lesite est développé avec Vue.js",
+    "lien": "https://github.com/jess2304/portfolio-jessem"
+  },
+  {
+    "titre": "Réalisation du site web et de la base de données ISIMA (60 heures)",
+    "description": "Concevoir un site web visualisant une base de données d'ISIMA, en utilisant HTML, CSS, PHP, MySQL, et le serveur MAMP",
+    "lien": null
+  }
+]
