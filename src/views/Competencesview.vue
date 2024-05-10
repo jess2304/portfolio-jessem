@@ -2,6 +2,10 @@
 import competencesData from "@/data/CompetencesData.json"
 import { ref } from "vue"
 const competences = ref(competencesData)
+
+const addBaseUrl = (icone: string) => {
+  return "/portfolio-jessem" + icone
+}
 </script>
 
 <template>
@@ -13,7 +17,11 @@ const competences = ref(competencesData)
         v-for="(competence, index) in competences"
         :key="index"
       >
-        <img :src="competence.icone" alt="Icone" class="competence-icone" />
+        <img
+          :src="addBaseUrl(competence.icone)"
+          alt="Icone"
+          class="competence-icone"
+        />
         <h3>{{ competence.categorie }}</h3>
         <p class="m-1" v-for="comp in competence.competences" :key="comp">
           {{ comp }}
