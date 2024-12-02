@@ -1,47 +1,37 @@
 <script setup lang="ts">
+import { ref } from "vue"
+import Menubar from "primevue/menubar"
 import data from "@/data/NavBarData.json"
-
-const scrollToSection = (selector) => {
+import Button from "primevue/button"
+const scrollToSection = (selector: string) => {
   const section = document.querySelector(selector)
   if (section) {
     section.scrollIntoView({ behavior: "smooth" })
   }
 }
+
+// Structure des items pour PrimeVue Menubar
+const menuItems = ref(
+  data.map((item: Record<string, any>) => ({
+    label: item.name,
+    command: () => scrollToSection(item.id),
+  }))
+)
 </script>
 <template>
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <div class="container-fluid">
-      <a
-        class="navbar-brand"
-        href="#"
+  <Menubar :model="menuItems" class="p-0">
+    <template #start>
+      <Button
+        text
+        label="It's Jessem Ettaghouti !"
+        class="text-2xl font-bold no-hover"
         @click.prevent="scrollToSection('#about')"
-        >It's Jessem Ettaghouti !</a
-      >
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#navBarContent"
-        aria-controls="navBarContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navBarContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li v-for="item in data" :key="item.id" class="nav-item">
-            <a
-              class="nav-link cursor-pointer"
-              href="#"
-              @click.prevent="scrollToSection(item.id)"
-              aria-current="page"
-              >{{ item.name }}</a
-            >
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+      />
+    </template>
+  </Menubar>
 </template>
-<style scoped></style>
+<style>
+.no-hover:hover {
+  background-color: inherit !important;
+}
+</style>

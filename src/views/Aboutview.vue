@@ -1,76 +1,115 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import Card from "primevue/card"
+import Button from "primevue/button"
+// Télécharger le CV
+const downloadCV = () => {
+  const link = document.createElement("a")
+  link.href = "/portfolio-jessem/cv/CV_Jessem_Ettaghouti.pdf"
+  link.download = "CV_Jessem_Ettaghouti.pdf"
+  link.click()
+}
+// Aller vers un lien externe
+const goToLink = (link: string) => {
+  window.open(link, "_blank")
+}
+</script>
 <template>
-  <div class="container pt-5">
-    <div class="row align-items-start justify-content-center">
-      <div class="col-md-6 order-2 order-md-1">
-        <div class="card shadow p-0">
-          <div class="card-header bg-light">
-            <h2 class="h4 mb-0"><strong>Jessem Ettaghouti</strong></h2>
-          </div>
-          <div class="card-body">
-            <h3 class="h5 text-secondary mb-3">
-              <strong>Data Scientist & Développeur</strong>
-            </h3>
-            <p>
-              Email:
-              <a href="mailto:jessemettaghouti@gmail.com" class="text-info"
-                >jessemettaghouti@gmail.com</a
-              >
-            </p>
-            <p>
-              Tél:
-              <a href="tel:+33671090148" class="text-info">+33 6 71 09 01 48</a>
-            </p>
-            <div class="text-center my-3">
-              <a
-                href="/portfolio-jessem/cv/CV_Jessem_Ettaghouti.pdf"
-                download="CV_Jessem_Ettaghouti.pdf"
-                class="btn btn-sm btn-outline-primary"
-                ><strong>Curriculum Vitae (CV)</strong></a
-              >
+  <div>
+    <div
+      class="flex flex-column md:flex-row align-items-start justify-content-center w-full gap-4"
+    >
+      <div class="w-full md:w-full order-2 md:order-1">
+        <Card class="shadow-2 p-0">
+          <template #title>
+            <div class="flex justify-content-between">
+              <div>
+                <p class="text-2xl font-bold mb-0">Jessem Ettaghouti</p>
+              </div>
+              <div class="flex">
+                <Button
+                  severity="secondary"
+                  text
+                  icon="pi pi-linkedin"
+                  class="no-hover cursor-pointer"
+                  @click="
+                    goToLink(
+                      'https://www.linkedin.com/in/jessem-ettaghouti-38142320a/'
+                    )
+                  "
+                />
+                <Button
+                  severity="secondary"
+                  text
+                  icon="pi pi-facebook"
+                  class="no-hover"
+                  @click="
+                    goToLink('https://www.facebook.com/jessem.ettaghouti.9')
+                  "
+                />
+              </div>
             </div>
-            <div class="d-flex justify-content-center gap-3">
-              <a
-                href="https://www.linkedin.com/in/jessem-ettaghouti-38142320a/"
-                target="_blank"
-                class="link-secondary"
-              >
-                <i class="bi bi-linkedin"></i>
-              </a>
-              <a
-                href="https://www.instagram.com/jessem_ett/"
-                target="_blank"
-                class="link-danger"
-              >
-                <i class="bi bi-instagram"></i>
-              </a>
-              <a
-                href="https://www.tiktok.com/@python_no_jutsu"
-                target="_blank"
-                class="link-dark"
-              >
-                <i class="bi bi-tiktok"></i>
-              </a>
-              <a
-                href="https://www.facebook.com/jessem.ettaghouti.9/"
-                target="_blank"
-                class="link-primary"
-              >
-                <i class="bi bi-facebook"></i>
-              </a>
+          </template>
+          <template #subtitle>
+            <p class="text-lg font-semibold mt-0">
+              Data Scientist & Développeur Full Stack
+            </p>
+          </template>
+          <template #content>
+            <div>
+              <p class="m-0">
+                Je suis Data Scientist et Développeur Full Stack. J'aime
+                travailler sur des projets qui mêlent analyse de données, IA et
+                développement web. Toujours à la recherche de nouvelles idées et
+                de nouveaux challenges, je m'efforce d'apprendre et de créer des
+                solutions utiles, efficaces et performantes.
+              </p>
+              <div>
+                <div
+                  class="flex flex-wrap justify-content-around align-items-center gap-3"
+                >
+                  <div class="inline-flex align-items-center">
+                    <p class="font-bold mr-1">Email:</p>
+                    <a
+                      href="mailto:jessemettaghouti@gmail.com"
+                      class="text-primary font-semibold"
+                      >jessemettaghouti@gmail.com</a
+                    >
+                  </div>
+                  <div class="inline-flex align-items-center">
+                    <p class="font-bold mr-1">Tél:</p>
+                    <a
+                      href="tel:+33671090148"
+                      class="text-primary font-semibold"
+                      >+33 6 71 09 01 48</a
+                    >
+                  </div>
+                  <!-- CV Download Button -->
+                  <div>
+                    <Button
+                      label="Télécharger le CV"
+                      outlined
+                      icon="pi pi-download"
+                      class="w-full"
+                      @click="downloadCV"
+                    />
+                  </div>
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
+          </template>
+        </Card>
       </div>
-      <div class="col-md-6 order-1 order-md-2">
+      <!-- Section de l'image de profil -->
+      <div
+        class="w-full md:w-6 order-1 md:order-2 flex justify-center md:justify-end"
+      >
         <img
           src="/assets/profile_photo.jpg"
           alt="Ettaghouti"
-          class="img-fluid rounded"
+          class="w-full h-auto border-500"
         />
       </div>
     </div>
   </div>
 </template>
-
-<style scoped></style>
+<style></style>
