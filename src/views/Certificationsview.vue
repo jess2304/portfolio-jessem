@@ -17,7 +17,7 @@ import Button from "primevue/button"
         <Card
           v-for="(certification, index) in certifications"
           :key="index"
-          class="p-4 hover:shadow-2xl transition-transform transform hover:-translate-y-2 custom-card-background"
+          class="p-4 shadow-5 transition-transform transform hover:-translate-y-2 custom-card-background"
         >
           <template #title>
             <div class="flex flex-col gap-2">

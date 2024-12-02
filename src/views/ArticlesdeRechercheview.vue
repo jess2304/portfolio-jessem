@@ -16,7 +16,7 @@ const articles = ref(articlesData)
         <Card
           v-for="(article, index) in articles"
           :key="index"
-          class="hover:shadow-2xl transition-transform transform hover:-translate-y-2 custom-card-background"
+          class="shadow-5 transition-transform transform hover:-translate-y-2 custom-card-background"
         >
           <template #title>
             <h3 class="text-xl font-bold text-primary text-center">

@@ -14,7 +14,7 @@ import Card from "primevue/card"
         <Card
           v-for="(competence, index) in competencesData"
           :key="index"
-          class="h-full flex flex-col custom-card-background"
+          class="h-full flex flex-col shadow-5 transition-transform transform hover:-translate-y-2 custom-card-background"
         >
           <template #header>
             <i

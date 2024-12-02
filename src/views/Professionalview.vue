@@ -30,7 +30,9 @@ const experiences = ref(experiencesData)
           </span>
         </template>
         <template #content="slotProps">
-          <Card class="mt-2 shadow-5 p-4 custom-card-background">
+          <Card
+            class="mt-2 shadow-5 transition-transform transform hover:-translate-y-2 p-4 custom-card-background"
+          >
             <template #title>
               <div class="">
                 <strong>{{ slotProps.item.title }}</strong>
