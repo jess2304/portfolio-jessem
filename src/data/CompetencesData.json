@@ -3,13 +3,11 @@
     "categorie": "Langages de Programmation",
     "competences": [
       "Python",
-      "Langage de programmation C",
-      "Langage de programmation C++",
+      "C/C++",
       "Matlab",
-      "Java",
-      "HTML/CSS/TypeScript"
+      "HTML/CSS/JavaScript/TypeScript"
     ],
-    "icone": "/assets/languages.png"
+    "icone": "pi-code"
   },
   {
     "categorie": "Machine Learning, Deep Learning, Analyse de données",
@@ -18,16 +16,16 @@
       "Analyse de données avec pandas, numpy et Matplotlib",
       "Reconnaissance d'images et classification avec Tensorflow, Keras"
     ],
-    "icone": "/assets/ml.png"
+    "icone": "pi-chart-line"
   },
   {
     "categorie": "Technologies de Bases de Données et DevOps",
-    "competences": ["Oracle SQL", "Big Data AWS", "Terraform et Gitlab CI/CD"],
-    "icone": "/assets/bdd.png"
+    "competences": ["Oracle SQL", "Big Data AWS", "Terraform et Git"],
+    "icone": "pi-database"
   },
   {
     "categorie": "Framewoks de développement Web",
-    "competences": ["Back-End avec FastAPI", "Front-End avec VueJs"],
-    "icone": "/assets/web.png"
+    "competences": ["Back-End avec FastAPI", "Front-End avec VueJs/ReactJS"],
+    "icone": "pi-globe"
   }
 ]

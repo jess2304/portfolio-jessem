@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Consultant IT",
+    "date": "10/2023 - Présent",
+    "company": "Abylsen STRA",
+    "linkCompany": "https://abylsen.com/",
+    "description": "Prêt à relever de nouveaux défis dans le domaine de l'IT, je suis ouvert à des missions en analyse de données, science des données et développement web. Désireux d'apprendre continuellement tout en contribuant activement à des projets.",
+    "missions": [
+      {
+        "client": "Développeur Full Stack chez Eviden Grenoble",
+        "linkClient": "https://eviden.com/fr-fr/",
+        "period": "10/2023 - 12/2024",
+        "description": "Développer une application WEB complète pour la gestion des coûts et des marchés du gaz pour la société EDF, en utilisant de nouvelles technologies comme FastAPI, Oracle SQL, VueJS, Bootstrap, Primevue, Primeflex et surtout Pinia pour la gestion des états."
+      }
+    ],
+    "icon": "pi pi-code",
+    "color": "#007BFF"
+  },
+  {
+    "title": "Data Scientist",
+    "date": "09/2022 - 09/2023",
+    "company": "CaRool - Paris",
+    "linkCompany": "https://www.carool.tech/",
+    "description": "Réalisation et amélioration des algorithmes permettant l'analyse de la référence, l'usure et la classification des pneumatiques sur base de photos numériques à l'aide de techniques de Machine Learning, de Deep Learning, de Big Data et d'Infrastructure as Code (IaC) avec Terraform. Des manipulations de la structure DevOps sur AWS de tout le projet ont été réalisées telles que l'exploitation des systèmes CloudWatch et les notifications sur les compartiments S3 et la gestion des files SQS.",
+    "icon": "pi pi-chart-line",
+    "color": "#28A745"
+  },
+  {
+    "title": "Data Analyst",
+    "date": "04/2022 - 09/2022",
+    "company": "LIMOS - Clermont Ferrand",
+    "linkCompany": "https://limos.fr/",
+    "description": "Analyse et gestion des incertitudes pour des données liées au suivi de patients souffrant de douleurs chroniques en utilisant des techniques de visualisation de données et d'apprentissage non supervisé avec Python, Pandas, Matplotlib, Scikit-Learn ",
+    "icon": "pi pi-database",
+    "color": "#FFC107"
+  }
+]

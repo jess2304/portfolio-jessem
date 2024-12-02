@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Les fondamentaux de FastAPI",
+    "organizer": "Udemy",
+    "date": "29 décembre 2023",
+    "url": "https://ude.my/UC-8f830dd5-15c4-4a42-a2d5-5d5e7ce27e50"
+  },
+  {
+    "name": "Formation Complète JavaScript de A à Z (par la Pratique)",
+    "organizer": "Udemy",
+    "date": "27 septembre 2024",
+    "url": "https://ude.my/UC-ed19a5db-e3de-488f-9af2-0bb5a8d6b3c1"
+  },
+  {
+    "name": "React de A à Z (Hooks, Redux, Contexte inclus)",
+    "organizer": "Udemy",
+    "date": "21 nomvembre 2024",
+    "url": "https://ude.my/UC-e8b27238-e467-4bcf-8807-e1cf02b27ee2"
+  }
+]

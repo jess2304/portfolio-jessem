@@ -1,58 +1,60 @@
 <script setup lang="ts">
 import competencesData from "@/data/CompetencesData.json"
-import { ref } from "vue"
-const competences = ref(competencesData)
-
-const addBaseUrl = (icone: string) => {
-  return "/portfolio-jessem" + icone
-}
+import Card from "primevue/card"
 </script>
-
 <template>
-  <section class="d-flex flex-column align-items-center">
-    <h1 class="text-center my-4"><strong>Compétences</strong></h1>
-    <div class="competences-container">
+  <Card class="shadow-5">
+    <template #title>
+      <h1 class="text-center font-bold mb-5">Compétences</h1>
+    </template>
+    <template #content>
       <div
-        class="competence-item"
-        v-for="(competence, index) in competences"
-        :key="index"
+        class="grid grid-cols-1 md:grid-cols-2 gap-4 w-11/12 md:w-10/12 mx-auto place-items-stretch"
       >
-        <img
-          :src="addBaseUrl(competence.icone)"
-          alt="Icone"
-          class="competence-icone"
-        />
-        <h3>{{ competence.categorie }}</h3>
-        <p class="m-1" v-for="comp in competence.competences" :key="comp">
-          {{ comp }}
-        </p>
+        <Card
+          v-for="(competence, index) in competencesData"
+          :key="index"
+          class="h-full flex flex-col custom-card-background"
+        >
+          <template #header>
+            <i
+              :class="competence.icone"
+              class="pi text-3xl p-2 block text-center"
+            ></i>
+          </template>
+          <template #title>
+            <h2 class="text-xl font-bold text-center">
+              {{ competence.categorie }}
+            </h2>
+          </template>
+          <template #content>
+            <ul class="list-none p-0 flex-grow">
+              <li
+                v-for="(comp, compIndex) in competence.competences"
+                :key="compIndex"
+                class="text-sm my-1"
+              >
+                <i class="pi pi-check-circle mr-2 text-green-500"></i>
+                {{ comp }}
+              </li>
+            </ul>
+          </template>
+        </Card>
       </div>
-    </div>
-  </section>
+    </template>
+  </Card>
 </template>
 <style scoped>
-.competences-container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 2vw;
-  width: 80%;
-  margin-top: 2vw;
-  background: rgba(255, 255, 255, 0.8);
+.custom-card-background {
+  background: linear-gradient(to right, #f5f5f5, #e0e0e0);
+  color: black;
+  transition: background 0.3s ease, color 0.3s ease;
 }
 
-.competence-item {
-  padding: 1.5vw;
-  border-radius: 1vw;
-  box-shadow: 0 0.5vw 1vw rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease;
-  background: rgba(255, 255, 255, 0.9);
-}
-
-.competence-icone {
-  height: 5vw;
-}
-
-.competence-item:hover {
-  transform: translateY(-1vw);
+@media (prefers-color-scheme: dark) {
+  .custom-card-background {
+    background: linear-gradient(to right, #2c3e50, #1a252f);
+    color: white;
+  }
 }
 </style>
