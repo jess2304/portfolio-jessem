@@ -8,7 +8,7 @@ const formations = ref(formationData)
 <template>
   <Card class="shadow-5">
     <template #title>
-      <h1 class="text-center"><strong>Formations</strong></h1>
+      <h1 class="text-center text-2xl font-bold">Formations</h1>
     </template>
     <template #content>
       <Fieldset

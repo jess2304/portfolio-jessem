@@ -5,7 +5,7 @@ import Card from "primevue/card"
 <template>
   <Card class="shadow-5">
     <template #title>
-      <h1 class="text-center font-bold mb-5">Compétences</h1>
+      <h1 class="text-center text-2xl font-bold mb-5">Compétences</h1>
     </template>
     <template #content>
       <div

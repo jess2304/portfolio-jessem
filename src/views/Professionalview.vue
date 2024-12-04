@@ -8,9 +8,7 @@ const experiences = ref(experiencesData)
 <template>
   <Card class="shadow-5">
     <template #title>
-      <h1 class="text-center">
-        <strong>Expérience Professionnelle</strong>
-      </h1>
+      <h1 class="text-center text-2xl font-bold">Expérience Professionnelle</h1>
     </template>
     <template #content>
       <Timeline
