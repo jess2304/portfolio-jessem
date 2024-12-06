@@ -10,11 +10,6 @@
     "lien": "https://github.com/jess2304/portfolio-jessem"
   },
   {
-    "titre": "Réalisation du jeu de cartes Pablo (120 heures)",
-    "description": "Développer un modèle IA avec du Reinforcement Learning permettant de jouer contre un humain au jeu Pablo. Le site web qui présente le jeu est en cours de développement.",
-    "lien": "https://github.com/jess2304/pablo-game-ai"
-  },
-  {
     "titre": "Réalisation du site web et de la base de données ISIMA (60 heures)",
     "description": "Concevoir un site web visualisant une base de données d'ISIMA, en utilisant HTML, CSS, PHP, MySQL, et le serveur MAMP",
     "lien": null
