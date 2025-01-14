@@ -5,6 +5,11 @@
     "lien": "https://github.com/jess2304/Challenge-QuickDraw-Basique"
   },
   {
+    "titre": "KMG2D : Le générateur de maillages en 2D (120 heures)",
+    "description": "Le but est de créer un outil qui génère des maillages en 2D grâce à des techniques d'éléments finis. L'outil est construit sous forme de logiciel exécutable accessible à partir du répertoire Github.",
+    "lien": "https://github.com/jess2304/KMG2D-Python"
+  },
+  {
     "titre": "Portfolio personnel (60 heures)",
     "description": "Développer un site web personnel présentant un portfolio des compétences permettant de mieux connaître Jessem Ettaghouti. Le site est développé avec Vue.js comme framework flexible et avec Primevue comme bibliothèque de style.",
     "lien": "https://github.com/jess2304/portfolio-jessem"
