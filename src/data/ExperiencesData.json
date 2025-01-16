@@ -7,10 +7,9 @@
     "description": "Prêt à relever de nouveaux défis dans le domaine de l'IT, je suis ouvert à des missions en analyse de données, science des données et développement web. Désireux d'apprendre continuellement tout en contribuant activement à des projets.",
     "missions": [
       {
-        "client": "Développeur Full Stack chez Eviden Grenoble",
-        "linkClient": "https://eviden.com/fr-fr/",
+        "client": "Développeur Full Stack",
         "period": "10/2023 - 12/2024",
-        "description": "Développer une application WEB complète pour la gestion des coûts et des marchés du gaz pour la société EDF, en utilisant de nouvelles technologies comme FastAPI, Oracle SQL, VueJS, Bootstrap, Primevue, Primeflex et surtout Pinia pour la gestion des états."
+        "description": "Développer une application WEB complète pour la gestion des coûts et des marchés du gaz, en utilisant de nouvelles technologies comme FastAPI, Oracle SQL, VueJS, Bootstrap, Primevue, Primeflex et surtout Pinia pour la gestion des états."
       }
     ],
     "icon": "pi pi-code",
