@@ -61,7 +61,6 @@ const experiences = ref(experiencesData)
                 >
                   {{ mission.client }}
                 </a>
-                ({{ mission.period }})
                 <br />
                 {{ mission.description }}
               </span>
