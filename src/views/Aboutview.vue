@@ -1,13 +1,7 @@
 <script setup lang="ts">
 import Card from "primevue/card"
 import Button from "primevue/button"
-// Télécharger le CV
-const downloadCV = () => {
-  const link = document.createElement("a")
-  link.href = "/portfolio-jessem/cv/CV_Jessem_Ettaghouti.pdf"
-  link.download = "CV_Jessem_Ettaghouti.pdf"
-  link.click()
-}
+
 // Aller vers un lien externe
 const goToLink = (link: string) => {
   window.open(link, "_blank")
@@ -82,16 +76,6 @@ const goToLink = (link: string) => {
                       class="text-primary font-semibold"
                       >+33 6 71 09 01 48</a
                     >
-                  </div>
-                  <!-- CV Download Button -->
-                  <div>
-                    <Button
-                      label="Télécharger le CV"
-                      outlined
-                      icon="pi pi-download"
-                      class="w-full"
-                      @click="downloadCV"
-                    />
                   </div>
                 </div>
               </div>
