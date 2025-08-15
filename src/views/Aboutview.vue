@@ -45,17 +45,17 @@ const goToLink = (link: string) => {
           </template>
           <template #subtitle>
             <p class="text-lg font-semibold mt-0">
-              Data Scientist & Développeur Full Stack
+              Ingénieur Logiciel
             </p>
           </template>
           <template #content>
             <div>
               <p class="m-0">
-                Je suis Data Scientist et Développeur Full Stack. J'aime
-                travailler sur des projets qui mêlent analyse de données, IA et
+                Je suis Data Scientist et Ingénieur Logiciel full stack. J'aime
+                travailler sur des projets qui mêlent analyse de données, IA et surtout du 
                 développement web. Toujours à la recherche de nouvelles idées et
                 de nouveaux challenges, je m'efforce d'apprendre et de créer des
-                solutions utiles, efficaces et performantes.
+                solutions maintenables, efficaces et performantes.
               </p>
               <div>
                 <div

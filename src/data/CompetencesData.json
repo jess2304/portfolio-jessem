@@ -3,6 +3,7 @@
     "categorie": "Langages de Programmation",
     "competences": [
       "Python",
+      "C#",
       "C/C++",
       "Matlab",
       "HTML/CSS/JavaScript/TypeScript"
@@ -20,12 +21,12 @@
   },
   {
     "categorie": "Technologies de Bases de Données et DevOps",
-    "competences": ["Oracle SQL", "Big Data AWS", "Terraform et Git"],
+    "competences": ["Oracle SQL", "Big Data AWS", "Terraform et Git", "Docker"],
     "icone": "pi-database"
   },
   {
     "categorie": "Framewoks de développement Web",
-    "competences": ["Back-End avec FastAPI", "Front-End avec VueJs/ReactJS"],
+    "competences": ["Back-End avec FastAPI & Django", "Front-End avec VueJs & ReactJS"],
     "icone": "pi-globe"
   }
 ]

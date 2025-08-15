@@ -63,6 +63,7 @@ const experiences = ref(experiencesData)
                 </a>
                 <br />
                 {{ mission.description }}
+              <br/>
               </span>
             </template>
           </Card>

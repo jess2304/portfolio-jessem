@@ -1,35 +1,52 @@
 [
   {
-    "title": "Consultant IT",
+    "title": "Ingénieur Logiciel",
     "date": "10/2023 - Présent",
-    "company": "Abylsen STRA",
+    "company": "Abylsen STRA — Strasbourg",
     "linkCompany": "https://abylsen.com/",
-    "description": "Prêt à relever de nouveaux défis dans le domaine de l'IT, je suis ouvert à des missions en analyse de données, science des données et développement web. Désireux d'apprendre continuellement tout en contribuant activement à des projets.",
+    "description": "Missions au sein d'une ESN pour divers clients, développement et refonte d’applications critiques.",
     "missions": [
       {
-        "client": "Développeur Full Stack",
-        "period": "10/2023 - 12/2024",
-        "description": "Développer une application WEB complète pour la gestion des coûts et des marchés du gaz, en utilisant de nouvelles technologies comme FastAPI, Oracle SQL, VueJS, Bootstrap, Primevue, Primeflex et surtout Pinia pour la gestion des états."
+        "client": "Flender — Développeur Backend",
+        "description": "Refonte complète du backend d’un outil de dimensionnement : migration VBA vers Python/FastAPI, architecture modulaire, application des principes Clean Code et mise en place de tests automatisés (non-régression).",
+        "technologies": ["Python", "FastAPI", "SQL Server", "Clean Code", "Tests automatisés"]
+      },
+      {
+        "client": "EDF — Développeur Full Stack",
+        "description": "Conception et développement full stack d’une application web pour la gestion des coûts et marchés du gaz, intégration d’API et gestion de l’état applicatif.",
+        "technologies": ["Python", "FastAPI", "Oracle SQL", "Vue.js", "Bootstrap", "PrimeVue", "PrimeFlex", "Pinia"]
       }
     ],
     "icon": "pi pi-code",
     "color": "#007BFF"
   },
   {
-    "title": "Data Scientist",
+    "title": "Développeur IA",
     "date": "09/2022 - 09/2023",
-    "company": "CaRool - Paris",
+    "company": "CaRool — Paris",
     "linkCompany": "https://www.carool.tech/",
-    "description": "Réalisation et amélioration des algorithmes permettant l'analyse de la référence, l'usure et la classification des pneumatiques sur base de photos numériques à l'aide de techniques de Machine Learning, de Deep Learning, de Big Data et d'Infrastructure as Code (IaC) avec Terraform. Des manipulations de la structure DevOps sur AWS de tout le projet ont été réalisées telles que l'exploitation des systèmes CloudWatch et les notifications sur les compartiments S3 et la gestion des files SQS.",
+    "description": "Projet R&D pour un acteur innovant de la mobilité, automatisation de l’analyse de pneus à partir d’images.",
+    "missions": [
+      {
+        "description": "Conception et optimisation d’algorithmes de Machine Learning et Deep Learning pour la classification et la détection d’usure de pneumatiques. Automatisation et déploiement sur AWS avec Infrastructure as Code via Terraform, amélioration de la précision de détection.",
+        "technologies": ["Python", "TensorFlow", "Scikit-learn", "AWS (CloudWatch, S3, SQS)", "Terraform"]
+      }
+    ],
     "icon": "pi pi-chart-line",
     "color": "#28A745"
   },
   {
-    "title": "Data Scientist",
+    "title": "Développeur IA",
     "date": "04/2022 - 09/2022",
-    "company": "LIMOS - Clermont Ferrand",
+    "company": "LIMOS — Clermont-Ferrand",
     "linkCompany": "https://limos.fr/",
-    "description": "Analyse et gestion des incertitudes pour des données liées au suivi de patients souffrant de douleurs chroniques en utilisant des techniques de visualisation de données et d'apprentissage non supervisé avec Python, Pandas, Matplotlib, Scikit-Learn ",
+    "description": "Projet de recherche pour l’analyse de données médicales de patients souffrant de douleurs chroniques.",
+    "missions": [
+      {
+        "description": "Analyse exploratoire et traitement des données des patients pour identifier des patterns et clusters pertinents. Développement d’un outil d’apprentissage non supervisé et visualisations avancées pour aider à la décision médicale.",
+        "technologies": ["Python", "Pandas", "Matplotlib", "Scikit-learn"]
+      }
+    ],
     "icon": "pi pi-database",
     "color": "#FFC107"
   }
