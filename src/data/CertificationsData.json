@@ -1,6 +1,12 @@
 [
   {
-    "name": "Développeur C#",
+    "name": "DevOps Introduction et prise en main de Kubernetes",
+    "organizer": "Udemy",
+    "date": "6 mai 2026",
+    "url": "https://ude.my/UC-20bcb2f4-b344-4c89-b3e0-2a410fbd18ad"
+  },
+  {
+    "name": "Développeur C# .NET",
     "organizer": "Udemy",
     "date": "25 juillet 2025",
     "url": "https://ude.my/UC-e0823bc6-caa8-43a7-9b66-99aaf69c86bd"
@@ -12,15 +18,15 @@
     "url": "https://ude.my/UC-8f830dd5-15c4-4a42-a2d5-5d5e7ce27e50"
   },
   {
+    "name": "React de A à Z (Hooks, Redux, Contexte inclus)",
+    "organizer": "Udemy",
+    "date": "21 novembre 2024",
+    "url": "https://ude.my/UC-e8b27238-e467-4bcf-8807-e1cf02b27ee2"
+  },
+  {
     "name": "Formation Complète JavaScript de A à Z (par la Pratique)",
     "organizer": "Udemy",
     "date": "27 septembre 2024",
     "url": "https://ude.my/UC-ed19a5db-e3de-488f-9af2-0bb5a8d6b3c1"
-  },
-  {
-    "name": "React de A à Z (Hooks, Redux, Contexte inclus)",
-    "organizer": "Udemy",
-    "date": "21 nomvembre 2024",
-    "url": "https://ude.my/UC-e8b27238-e467-4bcf-8807-e1cf02b27ee2"
   }
 ]

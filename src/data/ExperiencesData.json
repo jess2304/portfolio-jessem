@@ -28,7 +28,7 @@
     "description": "Projet R&D pour un acteur innovant de la mobilité, automatisation de l’analyse de pneus à partir d’images.",
     "missions": [
       {
-        "description": "Conception et optimisation d’algorithmes de Machine Learning et Deep Learning pour la classification et la détection d’usure de pneumatiques. Automatisation et déploiement sur AWS avec Infrastructure as Code via Terraform, amélioration de la précision de détection.",
+        "description": "Conception et optimisation d’algorithmes de Machine Learning et Deep Learning pour la classification et la détection d’usure et de référence de pneumatiques. Automatisation et déploiement sur AWS avec Infrastructure as Code via Terraform, amélioration de la précision de détection.",
         "technologies": ["Python", "TensorFlow", "Scikit-learn", "AWS (CloudWatch, S3, SQS)", "Terraform"]
       }
     ],

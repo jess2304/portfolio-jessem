@@ -11,22 +11,33 @@
     "icone": "pi-code"
   },
   {
-    "categorie": "Machine Learning, Deep Learning, Analyse de données",
+    "categorie": "AI, Machine Learning, Deep Learning",
     "competences": [
-      "Apprentissage supervisé et non supervisé en machine learning avec Scikit-Learn",
-      "Analyse de données avec pandas, numpy et Matplotlib",
-      "Reconnaissance d'images et classification avec Tensorflow, Keras"
+      "LLMs, Prompt Engineering, Tool Calling et Agents IA",
+      "RAG, OCR et analyse intelligente de documents",
+      "Intégration de modèles IA dans des APIs Python et applications web",
+      "Apprentissage supervisé et non supervisé avec Scikit-Learn",
+      "Analyse et préparation de données avec Pandas, NumPy et Matplotlib",
+      "Deep Learning, reconnaissance d'images et classification avec TensorFlow et Keras"
     ],
     "icone": "pi-chart-line"
   },
   {
     "categorie": "Technologies de Bases de Données et DevOps",
-    "competences": ["Oracle SQL", "Big Data AWS", "Terraform et Git", "Docker"],
+    "competences": [
+      "Oracle SQL",
+      "Big Data AWS et Azure",
+      "Terraform et Git",
+      "Docker"
+    ],
     "icone": "pi-database"
   },
   {
-    "categorie": "Framewoks de développement Web",
-    "competences": ["Back-End avec FastAPI & Django", "Front-End avec VueJs & ReactJS"],
+    "categorie": "Frameworks de développement Web",
+    "competences": [
+      "Back-End avec FastAPI & Django",
+      "Front-End avec VueJs & ReactJS"
+    ],
     "icone": "pi-globe"
   }
 ]
