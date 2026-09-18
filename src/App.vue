@@ -1,37 +1,39 @@
 <script setup lang="ts">
-import NavBarComponent from "@/components/NavBarComponent.vue"
-import AboutView from "@/views/Aboutview.vue"
-import ProfessionalView from "@/views/Professionalview.vue"
-import FormationView from "@/views/Formationview.vue"
-import CompetencesView from "@/views/Competencesview.vue"
-import ProjetsView from "@/views/Projetsview.vue"
-import ArticlesdeRechercheView from "@/views/ArticlesdeRechercheview.vue"
-import CertificationsView from "@/views/Certificationsview.vue"
-import ScrollButtonComponent from "@/components/ScrollButtonComponent.vue"
+import { ref } from 'vue'
+import { getContent } from '@/services/content'
+import { useJourney } from '@/composables/useJourney'
+import CinematicBackdrop from '@/components/cinematic/CinematicBackdrop.vue'
+import WalkingCharacter from '@/components/cinematic/WalkingCharacter.vue'
+import JourneyNavigation from '@/components/layout/JourneyNavigation.vue'
+import HeroScene from '@/components/scenes/HeroScene.vue'
+import GateScene from '@/components/scenes/GateScene.vue'
+import ExperienceScene from '@/components/scenes/ExperienceScene.vue'
+import SkillsScene from '@/components/scenes/SkillsScene.vue'
+import ProjectsScene from '@/components/scenes/ProjectsScene.vue'
+import ArchivesScene from '@/components/scenes/ArchivesScene.vue'
+import FinaleScene from '@/components/scenes/FinaleScene.vue'
+
+const content = getContent()
+const shell = ref<HTMLElement | null>(null)
+const { progress, chapter, reducedMotion } = useJourney(shell)
 </script>
+
 <template>
-  <div class="min-h-screen flex flex-column">
-    <header>
-      <NavBarComponent />
-    </header>
-    <main class="flex-grow-1 flex flex-column p-4">
-      <AboutView id="about" class="mb-5" />
-      <ProfessionalView id="profil" class="mb-5" />
-      <FormationView id="formations" class="mb-5" />
-      <CompetencesView id="competences" class="mb-5" />
-      <ProjetsView id="projets" class="mb-5" />
-      <ArticlesdeRechercheView id="articles" class="mb-5" />
-      <CertificationsView id="certifications" />
-      <ScrollButtonComponent />
+  <div ref="shell" class="cinematic-shell">
+    <a class="skip-link" href="#profil">Aller au contenu professionnel</a>
+    <CinematicBackdrop />
+    <JourneyNavigation :progress="progress" :chapter="chapter" />
+    <WalkingCharacter :progress="progress" :reduced-motion="reducedMotion" />
+    <main id="main-content">
+      <HeroScene :profile="content.profile" />
+      <GateScene :profile="content.profile" />
+      <div class="dossier-world">
+        <ExperienceScene :experiences="content.experiences" />
+        <SkillsScene :groups="content.skillGroups" />
+        <ProjectsScene :projects="content.projects" />
+        <ArchivesScene :education="content.education" :certifications="content.certifications" :publications="content.publications" />
+      </div>
+      <FinaleScene :profile="content.profile" />
     </main>
-    <footer class="text-center p-1">
-      <p class="text-sm">© 2024 Jessem Ettaghouti. Tous droits réservés.</p>
-    </footer>
   </div>
 </template>
-<style>
-footer {
-  background-color: var(--p-menubar-background);
-  color: var(--p-menubar-color);
-}
-</style>

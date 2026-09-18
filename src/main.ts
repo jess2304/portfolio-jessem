@@ -1,15 +1,9 @@
-import { createApp } from "vue"
-import "@/style.css"
-import App from "./App.vue"
-import PrimeVue from "primevue/config"
-import Aura from "@primevue/themes/aura"
+import { createApp } from 'vue'
+import '@fontsource/dm-sans/latin-400.css'
+import '@fontsource/dm-sans/latin-500.css'
+import '@fontsource/cormorant-garamond/latin-400.css'
+import '@fontsource/cormorant-garamond/latin-400-italic.css'
+import '@/style.css'
+import App from './App.vue'
 
-import "primeicons/primeicons.css"
-
-const app = createApp(App)
-app.use(PrimeVue, {
-  theme: {
-    preset: Aura,
-  },
-})
-app.mount("#app")
+createApp(App).mount('#app')
