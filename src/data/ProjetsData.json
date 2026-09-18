@@ -1,22 +1,7 @@
 [
   {
-    "titre": "NextShape : L'application web pour le calcul d'IMC et de besoins en calories",
-    "description": "Le but est de créer une application web qui permet à un utilisateur de s'inscrire, de se connecter en toute sécurité et de réaliser un suivi de son IMC et du nombre de calories par jour en Python, Django, PostgreSQL, Vue.js, Docker et Git.",
+    "titre": "NextShape : L'application web IA de nutrition",
+    "description": "Une application web qui permet à un utilisateur de s'inscrire, de se connecter en toute sécurité et de réaliser un suivi de son IMC et du nombre de calories par jour en Python, Django, PostgreSQL, Vue.js, Docker et Git. L'application est dotée d'un coach IA (LLM) qui fournit un programme nutritionnel personnalisé en fonction des données de l'utilisateur.",
     "lien": "https://github.com/jess2304/NextShape"
-  },
-  {
-    "titre": "Challenge Deep Learning de QuickDraw Basique",
-    "description": "Le but est de créer un modèle Deep Learning avec Keras permettant de classifier des images en 5 classes. Pour cela, une API a été construite avec FastAPI, facile à utiliser, pour insérer une image et recevoir la prédiction du modèle. Les technologies utilisées sont Python, Keras, FastAPI et Git.",
-    "lien": "https://github.com/jess2304/Challenge-QuickDraw-Basique"
-  },
-  {
-    "titre": "KMG2D : Le générateur de maillages en 2D",
-    "description": "Le but est de créer un outil qui génère des maillages en 2D grâce à des techniques d'éléments finis. L'outil est construit sous forme de logiciel exécutable accessible à partir du répertoire Github.",
-    "lien": "https://github.com/jess2304/KMG2D-Python"
-  },
-  {
-    "titre": "Portfolio personnel",
-    "description": "Développer un site web personnel présentant un portfolio des compétences permettant de mieux connaître Jessem Ettaghouti. Le site est développé avec Vue.js comme framework flexible et avec Primevue comme bibliothèque de style.",
-    "lien": "https://github.com/jess2304/portfolio-jessem"
   }
 ]

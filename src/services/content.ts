@@ -11,8 +11,8 @@ const localContent: PortfolioContent = {
   profile: {
     name: 'Jessem Ettaghouti',
     title: 'Ingénieur Logiciel',
-    bio: "Je suis Data Scientist et Ingénieur Logiciel full stack. J'aime travailler sur des projets qui mêlent analyse de données, IA et surtout du développement web. Toujours à la recherche de nouvelles idées et de nouveaux challenges, je m'efforce d'apprendre et de créer des solutions maintenables, efficaces et performantes.",
-    specialties: ['Full Stack', 'Data Science', 'IA'],
+    bio: "Je suis Ingénieur Logiciel full stack. J'aime travailler sur des projets qui mêlent IA et surtout du développement full stack. Toujours à la recherche de nouvelles idées et de nouveaux challenges, je m'efforce d'apprendre et de créer des solutions maintenables, efficaces et performantes.",
+    specialties: ['Full Stack', 'DevOps', 'IA'],
     email: 'jessemettaghouti@gmail.com',
     phone: '+33 6 71 09 01 48',
     phoneHref: 'tel:+33671090148',
