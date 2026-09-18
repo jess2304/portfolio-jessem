@@ -1,15 +1,26 @@
 <!doctype html>
-<html lang="en">
+<html lang="fr">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" href="assets/portfolio.png" />
-    <link rel="stylesheet" href="https://unpkg.com/primeflex@latest/primeflex.css">
-    <link rel="stylesheet" href="./src/style.css">
+    <link rel="icon" href="%BASE_URL%assets/portfolio.png" />
+    <link rel="preload" as="image" href="%BASE_URL%assets/cinematic/exterior.webp" media="(min-width: 701px)" fetchpriority="high" />
+    <link rel="preload" as="image" href="%BASE_URL%assets/cinematic/exterior-mobile.webp" media="(max-width: 700px)" fetchpriority="high" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>It's Jessem Ettaghouti</title>
+    <meta name="theme-color" content="#141815" />
+    <meta name="description" content="Jessem Ettaghouti, ingénieur logiciel full stack et Data Scientist. Découvrez mon parcours, mes projets web et IA, mes compétences et mes publications." />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="fr_FR" />
+    <meta property="og:title" content="Jessem Ettaghouti — Ingénieur Logiciel" />
+    <meta property="og:description" content="Un parcours au-delà des murs. Développement full stack, Data Science et intelligence artificielle." />
+    <meta property="og:url" content="https://jess2304.github.io/portfolio-jessem/" />
+    <meta property="og:image" content="https://jess2304.github.io/portfolio-jessem/assets/cinematic/exterior.webp" />
+    <meta property="og:image:alt" content="Une plaine et un chemin devant les immenses murs d’une ville médiévale" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <title>Jessem Ettaghouti — Ingénieur Logiciel · Full Stack &amp; IA</title>
   </head>
   <body>
-    <div id="app" class="p-0 min-w-full"></div>
+    <div id="app"></div>
+    <noscript>Ce portfolio nécessite JavaScript. Contact : <a href="mailto:jessemettaghouti@gmail.com">jessemettaghouti@gmail.com</a>.</noscript>
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
