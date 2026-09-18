@@ -26,17 +26,17 @@ defineProps<{ profile: Profile }>()
 .finale-content { padding-top: 70px; padding-bottom: 170px; }
 h2 { font: 400 clamp(70px, 8.5vw, 132px)/.91 var(--display); letter-spacing: -.035em; margin: 26px 0 30px; text-shadow: 0 4px 35px rgb(12 21 11 / 45%); }
 h2 em { color: #e1cfa2; font-weight: 400; }
-.finale-message { color: #dbd9ca; font-size: 13px; line-height: 1.8; }
-.email-link { display: inline-flex; align-items: center; justify-content: space-between; gap: 55px; border: 1px solid #d9d0ae; padding: 16px 24px; font-size: 12px; margin-top: 18px; background: rgb(14 22 14 / 45%); transition: background .2s; }
+.finale-message { color: #dbd9ca; font-size: 16px; line-height: 1.8; }
+.email-link { display: inline-flex; align-items: center; justify-content: space-between; gap: 55px; max-width: 100%; border: 1px solid #d9d0ae; padding: 16px 24px; font-size: 16px; margin-top: 18px; background: rgb(14 22 14 / 45%); transition: background .2s; }
 .email-link:hover { background: rgb(42 50 28 / 85%); }
 .email-link span { font-size: 21px; }
-.email-address { display: block; width: fit-content; font-size: 10px; letter-spacing: .05em; margin-top: 15px; color: #d6d5c1; }
-.finale-links { display: flex; flex-wrap: wrap; gap: 24px; margin-top: 35px; font-size: 10px; }
+.email-address { display: block; width: fit-content; max-width: 100%; overflow-wrap: anywhere; font-size: 13px; letter-spacing: .03em; margin-top: 15px; color: #d6d5c1; }
+.finale-links { display: flex; flex-wrap: wrap; gap: 24px; margin-top: 35px; font-size: 14px; }
 .finale-links a { padding-block: 7px; border-bottom: 1px solid #9fa186; }
 .finale-links span { margin-left: 10px; color: var(--accent); }
-footer { position: absolute; bottom: 72px; left: var(--gutter); right: var(--gutter); border-top: 1px solid var(--line); padding-top: 24px; display: flex; justify-content: space-between; gap: 20px; font-size: 9px; }
+footer { position: absolute; bottom: 72px; left: var(--gutter); right: var(--gutter); border-top: 1px solid var(--line); padding-top: 24px; display: flex; justify-content: space-between; gap: 20px; font-size: 12px; }
 .footer-year { color: #b5b9a6; margin-left: 15px; }
 footer a { color: #d2d5c4; }
 footer a span { margin-left: 15px; }
-@media (max-width: 700px) { .finale-scene { min-height: 960px; } h2 { font-size: clamp(62px, 13vw, 90px); } .finale-links { gap: 16px; } footer { font-size: 8px; } .footer-year { display: block; margin: 6px 0 0; } .email-link { gap: 24px; } }
+@media (max-width: 700px) { .finale-scene { min-height: 960px; } h2 { font-size: clamp(62px, 13vw, 90px); } .finale-links { gap: 16px; } footer { font-size: 11px; } .footer-year { display: block; margin: 6px 0 0; } .email-link { gap: 20px; padding-inline: 20px; } }
 </style>

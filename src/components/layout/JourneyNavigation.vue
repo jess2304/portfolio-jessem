@@ -48,17 +48,17 @@ onUnmounted(() => window.removeEventListener('keydown', close))
 .wordmark { display: flex; gap: 20px; align-items: center; }
 .wordmark > span:first-child { font: 400 45px/.9 var(--display); letter-spacing: -.07em; }
 .wordmark-dot { color: var(--accent); }
-.wordmark-label { font-size: 8px; letter-spacing: .18em; line-height: 1.7; }
-.wordmark-label > span { font-size: 7px; letter-spacing: .12em; color: #bec1b0; }
+.wordmark-label { font-size: 10px; letter-spacing: .15em; line-height: 1.7; }
+.wordmark-label > span { font-size: 9px; letter-spacing: .1em; color: #bec1b0; }
 nav { display: flex; align-items: center; gap: clamp(20px, 2.5vw, 43px); }
-nav a { position: relative; font-size: 10px; padding-block: 12px; color: #d4d4c7; transition: color .2s; }
+nav a { position: relative; font-size: 14px; padding-block: 12px; color: #d4d4c7; transition: color .2s; }
 nav a:hover, nav a[aria-current] { color: var(--accent); }
 nav a[aria-current]::after { content: ''; position: absolute; left: 0; right: 0; bottom: 4px; height: 1px; background: var(--accent); }
 nav .contact-link { border: 1px solid rgb(230 224 203 / 50%); padding: 11px 18px; display: flex; gap: 24px; color: var(--ink); }
 nav .contact-link[aria-current]::after { display: none; }
 .contact-link span { font-size: 15px; }
 .menu-toggle { display: none; }
-.journey-status { position: fixed; z-index: 25; bottom: 0; left: 0; right: 0; height: 34px; padding-inline: var(--gutter); display: flex; align-items: center; gap: 32px; background: rgb(14 20 15 / 93%); border-top: 1px solid var(--line); font-size: 8px; letter-spacing: .13em; }
+.journey-status { position: fixed; z-index: 25; bottom: 0; left: 0; right: 0; height: 34px; padding-inline: var(--gutter); display: flex; align-items: center; gap: 32px; background: rgb(14 20 15 / 93%); border-top: 1px solid var(--line); font-size: 10px; letter-spacing: .1em; }
 .journey-status > span:first-child { display: flex; align-items: center; min-width: 170px; }
 .status-diamond { color: var(--accent); font-size: 15px; margin-right: 12px; }
 .current-chapter { color: var(--accent); }
@@ -74,9 +74,9 @@ nav .contact-link[aria-current]::after { display: none; }
 @media (max-width: 700px) {
   .journey-header, .journey-header.has-scrolled { height: 76px; }
   .wordmark > span:first-child { font-size: 39px; }
-  .wordmark-label { display: block; font-size: 7px; }
-  .wordmark-label > span { font-size: 6px; }
-  .menu-toggle { display: flex; gap: 12px; align-items: center; font-size: 10px; padding: 12px 0 12px 12px; }
+  .wordmark-label { display: block; font-size: 9px; }
+  .wordmark-label > span { font-size: 8px; }
+  .menu-toggle { display: flex; gap: 12px; align-items: center; font-size: 14px; padding: 12px 0 12px 12px; }
   .menu-lines { width: 18px; display: grid; gap: 5px; }
   .menu-lines i { height: 1px; background: var(--ink); }
   nav { display: none; position: absolute; top: 76px; left: calc(-1 * var(--gutter)); right: calc(-1 * var(--gutter)); background: #151d17; padding: 20px var(--gutter) 35px; border-bottom: 1px solid var(--line); }
@@ -84,7 +84,7 @@ nav .contact-link[aria-current]::after { display: none; }
   nav a { font-size: 16px; padding-block: 13px; }
   nav .contact-link { margin-top: 12px; justify-content: space-between; }
   .menu-open::before { background: #151d17; }
-  .journey-status { height: 30px; gap: 16px; font-size: 7px; }
+  .journey-status { height: 30px; gap: 12px; font-size: 9px; letter-spacing: .06em; }
   .journey-status > span:first-child { min-width: 140px; }
   .progress-value { min-width: 48px; }
 }

@@ -18,7 +18,7 @@ defineProps<{ projects: readonly Project[] }>()
 
 <style scoped>
 .projects-heading { display: flex; justify-content: space-between; align-items: end; gap: 36px; }
-.projects-heading > p { color: var(--muted); font-size: 12px; margin-bottom: 60px; }
+.projects-heading > p { color: var(--muted); font-size: 16px; margin-bottom: 60px; }
 .section-heading em { font-weight: 400; color: #c7ba96; }
 .projects-list { display: grid; gap: 50px; }
 .project-card { display: grid; grid-template-columns: 1.1fr 1fr; min-height: 360px; border: 1px solid var(--line); background: #181e19; }
@@ -26,13 +26,13 @@ defineProps<{ projects: readonly Project[] }>()
 .project-card:nth-child(even) .project-artwork { order: 2; }
 .project-artwork { position: relative; overflow: hidden; min-height: 320px; background: #293026; }
 .project-artwork > img { width: 100%; height: 100%; object-fit: cover; }
-.project-ref { position: absolute; top: 24px; left: 26px; color: #b9bd9f; font-size: 8px; letter-spacing: .18em; }
+.project-ref { position: absolute; top: 24px; left: 26px; color: #b9bd9f; font-size: 11px; letter-spacing: .16em; }
 .project-copy { align-self: center; padding: clamp(28px, 3.3vw, 48px); }
-.project-copy > .eyebrow { font-size: 8px; }
+.project-copy > .eyebrow { font-size: 11px; }
 h3 { font: 400 clamp(29px, 2.6vw, 40px)/1.08 var(--display); margin-block: 20px; letter-spacing: -.02em; }
-.project-copy > p { font-size: 12px; color: var(--muted); }
+.project-copy > p { font-size: 16px; color: var(--muted); }
 .project-links { display: flex; gap: 20px; flex-wrap: wrap; margin-top: 23px; }
-.project-links a { font-size: 10px; }
+.project-links a { font-size: 14px; }
 .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
 @media (max-width: 700px) { .projects-heading { display: block; } .projects-heading > p { margin-bottom: 30px; } .project-card, .project-card:nth-child(even) { grid-template-columns: 1fr; } .project-card:nth-child(even) .project-artwork { order: 0; } .project-artwork { min-height: 260px; } .projects-list { gap: 30px; } }
 </style>

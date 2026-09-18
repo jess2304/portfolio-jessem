@@ -100,7 +100,7 @@ defineProps<{ experiences: readonly Experience[] }>()
 
 .experience-date,
 .entry-label {
-  font-size: 0.68rem;
+  font-size: 0.8125rem;
   font-weight: 500;
   letter-spacing: 0.14em;
   text-transform: uppercase;
@@ -114,7 +114,7 @@ defineProps<{ experiences: readonly Experience[] }>()
 
 .company-link {
   max-width: 13rem;
-  font-size: 0.92rem;
+  font-size: 1rem;
   line-height: 1.7;
   color: var(--ink);
   text-decoration: none;
@@ -146,6 +146,7 @@ h3 {
 .experience-description {
   margin: 0 0 1.8rem;
   color: var(--muted);
+  font-size: 1rem;
   line-height: 1.8;
 }
 
@@ -161,7 +162,7 @@ h3 {
 }
 
 .mission h4 {
-  font-size: 0.91rem;
+  font-size: 1rem;
   line-height: 1.6;
   font-weight: 500;
   color: var(--ink);
@@ -175,7 +176,7 @@ h3 {
 
 .mission p {
   margin: 0;
-  font-size: 0.88rem;
+  font-size: 1rem;
   line-height: 1.9;
   color: var(--muted);
 }

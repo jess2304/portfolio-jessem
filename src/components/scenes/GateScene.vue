@@ -26,9 +26,9 @@ h2 em { color: #d1c4a0; }
 .gate-profile { display: grid; grid-template-columns: .85fr 1.15fr; gap: 65px; border-bottom: 1px solid var(--line); padding-top: 140px; padding-bottom: 90px; }
 .profile-label { display: flex; gap: 20px; align-items: start; }
 .profile-label img { width: 76px; height: 76px; object-fit: cover; border-radius: 50%; filter: saturate(.45); }
-.profile-label .eyebrow { margin: 8px 0 4px; font-size: 8px; }
+.profile-label .eyebrow { margin: 8px 0 4px; font-size: 11px; }
 .profile-label p:last-child { font: 25px var(--display); }
-.profile-bio { color: var(--muted); font-size: 14px; margin-bottom: 0; }
-@media (max-width: 700px) { .gate-scene { min-height: 110svh; padding-top: 10svh; } .gate-profile { grid-template-columns: 1fr; gap: 24px; padding-block: 110px 70px; } .profile-bio { font-size: 13px; } .gate-intro h2 { font-size: 40px; } }
+.profile-bio { color: var(--muted); font-size: 16px; margin-bottom: 0; }
+@media (max-width: 700px) { .gate-scene { min-height: 110svh; padding-top: 10svh; } .gate-profile { grid-template-columns: 1fr; gap: 24px; padding-block: 110px 70px; } .gate-intro h2 { font-size: 40px; } }
 @media (prefers-reduced-motion: reduce) { .gate-scene { min-height: auto; padding-top: 90px; } }
 </style>
