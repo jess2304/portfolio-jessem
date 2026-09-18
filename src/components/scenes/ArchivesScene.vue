@@ -119,7 +119,7 @@ defineProps<{
 .publication-type,
 .publication-year,
 .detail-label {
-  font-size: 0.64rem;
+  font-size: 0.75rem;
   letter-spacing: 0.12em;
   line-height: 1.7;
   text-transform: uppercase;
@@ -161,7 +161,7 @@ defineProps<{
 }
 
 .institution {
-  font-size: 0.69rem;
+  font-size: 0.8125rem;
   text-transform: uppercase;
   letter-spacing: 0.1em;
   line-height: 1.65;
@@ -170,7 +170,7 @@ defineProps<{
 
 .degree,
 .certification-title {
-  font-size: 0.94rem;
+  font-size: 1rem;
   font-weight: 400;
   line-height: 1.8;
   color: var(--ink);
@@ -224,7 +224,7 @@ defineProps<{
   padding-left: 1rem;
   color: var(--muted);
   margin: 0;
-  font-size: 0.82rem;
+  font-size: 1rem;
   line-height: 1.9;
 }
 
@@ -253,7 +253,7 @@ defineProps<{
 }
 
 .archive-meta {
-  font-size: 0.75rem;
+  font-size: 0.8125rem;
   color: var(--muted);
   line-height: 1.8;
 }
@@ -281,6 +281,7 @@ defineProps<{
 
 .publication-year {
   flex-shrink: 0;
+  font-size: 0.8125rem;
   color: var(--muted);
 }
 
@@ -303,14 +304,14 @@ defineProps<{
 }
 
 .publication-authors {
-  font-size: 0.76rem;
+  font-size: 0.8125rem;
   line-height: 1.9;
   color: var(--muted);
   margin: 0 0 1.1rem;
 }
 
 .publication-link {
-  font-size: 0.74rem;
+  font-size: 0.875rem;
 }
 
 @media (max-width: 650px) {
@@ -342,7 +343,7 @@ defineProps<{
 
   .degree,
   .certification-title {
-    font-size: 0.9rem;
+    font-size: 1rem;
   }
 }
 </style>

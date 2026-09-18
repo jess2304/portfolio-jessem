@@ -30,30 +30,30 @@ h1 { display: flex; flex-direction: column; font: 400 clamp(80px, 10.6vw, 170px)
 h1 > span + span { margin-top: 8px; }
 .title-period { color: var(--accent); }
 .hero-profession { display: flex; gap: 20px; align-items: flex-start; margin-top: 38px; }
-.profession-rule { width: 43px; height: 1px; background: var(--accent); margin-top: 12px; }
-.hero-profession p { font-size: 17px; line-height: 1.6; margin: 0; }
-.hero-profession p > span { display: block; color: #cdcbbb; font-size: 11px; letter-spacing: .08em; margin-top: 4px; }
+.profession-rule { width: 43px; height: 1px; background: var(--accent); margin-top: 18px; }
+.hero-profession p { font-size: 24px; line-height: 1.5; margin: 0; }
+.hero-profession p > span { display: block; color: #cdcbbb; font-size: 14px; letter-spacing: .06em; margin-top: 6px; }
 .hero-profession b { color: var(--accent); font-weight: 400; padding-inline: 8px; }
 .hero-bottom { position: absolute; bottom: 78px; left: var(--gutter); right: var(--gutter); display: flex; justify-content: space-between; align-items: end; }
-.enter-link { display: flex; align-items: center; gap: 17px; font-size: 11px; }
-.small-caption { display: block; color: #bcbdaa; font-size: 8px; letter-spacing: .16em; margin-top: 6px; }
+.enter-link { display: flex; align-items: center; gap: 17px; font-size: 14px; }
+.small-caption { display: block; color: #bcbdaa; font-size: 10px; letter-spacing: .14em; margin-top: 6px; }
 .scroll-mark { display: flex; justify-content: center; width: 23px; height: 36px; border: 1px solid #a7a88f; border-radius: 20px; }
 .scroll-mark i { width: 1px; height: 9px; background: var(--accent); margin-top: 7px; transition: transform .25s; }
 .enter-link:hover i { transform: translateY(10px); }
 .hero-note { font: 400 25px/1.1 var(--display); margin: 0; }
-.hero-note > span { display: block; font: 9px 'DM Sans', sans-serif; letter-spacing: .2em; color: var(--accent); margin-bottom: 12px; }
-.hero-side-note { position: absolute; right: 30px; top: 36%; writing-mode: vertical-rl; font-size: 8px; letter-spacing: .28em; color: #c9cbbb; }
+.hero-note > span { display: block; font: 11px 'DM Sans', sans-serif; letter-spacing: .18em; color: var(--accent); margin-bottom: 12px; }
+.hero-side-note { position: absolute; right: 30px; top: 36%; writing-mode: vertical-rl; font-size: 10px; letter-spacing: .24em; color: #c9cbbb; }
 @media (max-width: 700px) {
   .hero-scene { min-height: 680px; padding-top: 100px; padding-bottom: 160px; }
   h1 { font-size: clamp(66px, 15vw, 105px); margin-left: -3px; }
-  .hero-intro { font-size: 8px; letter-spacing: .15em; }
+  .hero-intro { font-size: 10px; letter-spacing: .13em; }
   .hero-profession { gap: 12px; }
   .profession-rule { width: 26px; }
-  .hero-profession p { font-size: 15px; }
-  .hero-profession p > span { font-size: 10px; }
+  .hero-profession p { font-size: 22px; }
+  .hero-profession p > span { font-size: 13px; }
   .hero-bottom { bottom: 74px; }
   .hero-note { font-size: 21px; }
-  .hero-note > span { font-size: 7px; }
+  .hero-note > span { font-size: 10px; }
   .hero-side-note { display: none; }
 }
 @media (max-width: 380px) { .hero-note { display: none; } }

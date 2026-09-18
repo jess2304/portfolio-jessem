@@ -37,13 +37,13 @@ button { border: 0; background: transparent; }
 .cinematic-shell { isolation: isolate; overflow: clip; }
 main { position: relative; z-index: 3; }
 .section-shell { width: min(1120px, calc(100% - var(--gutter) * 2)); margin-inline: auto; padding-block: 115px; }
-.eyebrow { font-size: 10px; font-weight: 500; letter-spacing: .23em; text-transform: uppercase; color: var(--accent); line-height: 1.5; }
+.eyebrow { font-size: 11px; font-weight: 500; letter-spacing: .2em; text-transform: uppercase; color: var(--accent); line-height: 1.5; }
 .section-heading { font: 400 clamp(44px, 5.1vw, 76px)/1.05 var(--display); letter-spacing: -.035em; max-width: 780px; margin-block: 20px 56px; }
 .section-number { font: 400 16px var(--display); color: var(--accent); }
-.text-link { display: inline-flex; align-items: center; gap: 22px; padding-block: 10px; border-bottom: 1px solid var(--line); font-size: 12px; transition: color .2s, border-color .2s; }
+.text-link { display: inline-flex; align-items: center; gap: 22px; padding-block: 10px; border-bottom: 1px solid var(--line); font-size: 14px; transition: color .2s, border-color .2s; }
 .text-link:hover { color: var(--accent); border-color: var(--accent); }
 .tags { display: flex; flex-wrap: wrap; gap: 7px; list-style: none; padding: 0; margin: 18px 0 0; }
-.tags li, .tags > span { border: 1px solid var(--line); padding: 5px 9px; font-size: 10px; color: #c8c5b7; }
+.tags li, .tags > span { border: 1px solid var(--line); padding: 6px 10px; font-size: 12px; color: #c8c5b7; }
 .skip-link { position: fixed; top: 16px; left: 16px; z-index: 100; padding: 14px 20px; color: #141815; background: var(--ink); transform: translateY(-180%); }
 .skip-link:focus { transform: none; }
 .dossier-world { background: linear-gradient(180deg, transparent, rgb(17 21 18 / 30%) 10%, rgb(17 21 18 / 45%) 75%, transparent); }

@@ -114,7 +114,7 @@ li {
   align-items: flex-start;
   gap: 0.8rem;
   color: var(--muted);
-  font-size: 0.88rem;
+  font-size: 1rem;
   line-height: 1.8;
 }
 
